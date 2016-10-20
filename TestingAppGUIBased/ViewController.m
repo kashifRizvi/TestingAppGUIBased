@@ -26,4 +26,6 @@
 }
 
 
+- (IBAction)handleHomeButton:(UIButton *)sender {
+}
 @end

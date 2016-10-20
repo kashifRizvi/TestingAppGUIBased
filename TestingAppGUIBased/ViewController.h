@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)handleHomeButton:(UIButton *)sender;
+
 
 @end
 

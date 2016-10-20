@@ -1,0 +1,28 @@
+//
+//  PresentView.h
+//  TestingAppGUIBased
+//
+//  Created by Kashif on 19/10/16.
+//  Copyright © 2016 Kashif. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "ViewController.h"
+
+@interface PresentView : UIViewController<UITextViewDelegate>
+- (IBAction)segmentedControl:(UISegmentedControl *)sender;
+- (IBAction)gestureLongPressButton:(UILongPressGestureRecognizer *)sender;
+- (IBAction)gestureLongPressImageView:(UILongPressGestureRecognizer *)sender;
+- (IBAction)gestureTapImageView:(UITapGestureRecognizer *)sender;
+- (IBAction)gesturedoubleTapImageView:(UITapGestureRecognizer *)sender;
+- (IBAction)gesturePanLabelDrag:(UIPanGestureRecognizer *)sender;
+- (IBAction)handleSliderLabel:(UISlider *)sender;
+- (IBAction)handleSliderLabelStop:(UISlider *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *labelOutlet;
+@property (weak, nonatomic) IBOutlet UIProgressView *progressViewOutlet;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicatorOutlet;
+
+
+
+
+@end
